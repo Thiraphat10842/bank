@@ -46,7 +46,7 @@
             </select><br> <br>
         </div>
         <div class="Pum">
-        <input type="submit" value="Submit">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <input type="submit" value="Submit">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
         <input type="reset" value="Reset">
         </div>
         <div class ="p">
