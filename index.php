@@ -12,10 +12,19 @@
         width: 100px;
         margin-bottom: 15px;
     }
+    select {
+        
+  width: 100%;
+  padding: 10px 15px;
+  border: none;
+  border: 1px solid #3f4441;
+  border-radius: 4px;}
+
+
 </style>
 <body>
 <div class="menu">
-       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> 
+       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> <br>
     </div>
     <div class="header">
         <h1 >ลงชื่อเพื่อเข้าใช้งาน</h1>
@@ -37,11 +46,11 @@
             <br>Gender:&nbsp &nbsp<select name="gender"></br>
             <option value="M">Male</option>
             <option value="F">Female</option>
-            </select><br> <br>
+            </select><br> 
         </div>
         <div class="input_group">
             Marry Status: <select name="marry_status">
-            <option value="S">Single</option>
+            <option value="S">Single</option> 
             <option value="M">Married</option>
             </select><br> <br>
         </div>

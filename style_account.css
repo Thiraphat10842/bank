@@ -8,26 +8,31 @@ body{
         
 }
 .BGG{
-    color: #0e7962;
+    color: #790e49c4;
     font-size: 20px;
     text-align: center;
 }
 .header{
     width:50%;
     margin: 50px auto 0px;
-    color: white;
-    background: #c054a0;
+    color: rgb(255, 255, 255);
+    background: #c054a0e0;
     text-align: center;
-    border: 1px solid #0ea068;
+    border: 1px solid #610d3b;
     border-bottom: none;
     border-radius:  10px 10px 0px 0px;
     padding: 20px;
 }
-.menu{
-    background: #0e7962;
+form,.menu{ 
+    width: 100%;
+    margin: 0px auto 0px;
+    background: #b345a1cc;
+    border: 1px solid #ebebeb;
     display: block;
     color: rgb(255, 255, 255);
     padding: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius:  0px 0px 0px 0px;
 }
 form, .content{
     width: 50%;
@@ -35,7 +40,7 @@ form, .content{
     font-size: 12px;
     padding: 20px;
     border: 1px solid#3f4441;
-    background: rgb(255, 251, 243);
+    background: rgba(255, 251, 243, 0.678);
     border-radius: 0px 0px 10px 10px;
     font-size: 12px;
     color: #0b140fcc;
@@ -49,3 +54,71 @@ form, .content{
     background: #41ad89;
     border-radius:  5px;
 }
+.menu1{
+
+    color: #FFFFFF(255, 255, 255);
+    text-align:right;
+    font-size: 20px;
+    
+}
+.con{
+    width:50%;
+    margin: 50px auto 0px;
+    color: white;
+    background: #fff1fbb4;
+    text-align: center;
+    border: 1px solid #1c0b24f8;
+    border-radius:  10px 10px 10px 10px;
+    color: #0b140fcc;
+}
+.Log{
+    text-align: right;
+    font-size: 18px;
+    width: 50%;
+    border-radius: 10px 10px 10px 10px;
+}
+div.menu1 {
+    position: absolute;
+    text-align: center;
+    top: 50px;
+    right: 0;
+    width: 100px;
+    height: 20px;
+    font-size: 16px;
+    border-radius: 10px 10px 10px 10px;
+    background: rgb(80, 183, 201);
+}
+.button {
+    background-color: #31beac;
+    border: none;
+    width: 100px;
+    height: 35px;
+    color: rgb(43, 3, 53);
+    text-align: center;
+    font-size: 16px;
+    border: 2px solid#4eb4d3;
+  }
+.button2{
+    width: 150px;
+    height: 100px;
+    padding: 5px 20px;
+    font-size: 25px ;
+    color:1px solid rgb(35, 175, 105);
+    border: 1px solid #e7e5e5;
+    background: #a43dadd2;
+    border-radius:  5px;
+    color: #e7e5e5;
+}
+.button3{
+    width: 150px;
+    height: 100px;
+    padding: 5px 20px;
+    font-size: 25px ;
+    color:1px solid rgb(35, 175, 105);
+    border: 1px solid #e7e5e5;
+    background: #a43dadd2;
+    border-radius:  5px;
+    color: #e7e5e5;
+}
+
+

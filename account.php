@@ -8,14 +8,26 @@
     <link rel="stylesheet" href="style_account.css">
 </head>
 <body>
-<div class="menu">
-       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> 
-    </div>
+    <form action="Login.php" class="menu" method="post">
+        <h1> (BBK) &nbsp BANK BAEWKRRUB </h1>
+        <h1> ระบบฝาก-ถอน </h1> <br>
+        <div class="menu1">  
+            <button type="submit" name="login_user" class ="button">ออกจากระบบ</button>   
+        </div>
+    </form>
+</div>
     <div class="header">
         <h1 >บัญชีเงินฝาก</h1>
     </div>
-    <form action="save_add_people.php" method="post">
+    <form action="Login.php" method="post">
         <h1> เงินฝาก </h1>
+        <h2>xxx-xxx-xxx-xxx</h2>
+    </form><br>
+    <form action="withdraw" class="con" method="post"><br>
+        <div class= 'Fag'>
+             <button type="submit" name="login_user" class ="button2">ฝาก</button> &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  &nbsp  &nbsp&nbsp   &nbsp  
+             <button type="submit" name="login_user" class ="button3">ถอน</button> 
+        </div>
     </form>
 </body>
 </html>

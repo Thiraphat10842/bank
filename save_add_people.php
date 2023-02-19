@@ -23,7 +23,7 @@ $conn->query($sql)
 </head>
 <body>
      <div class="menu">
-       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> 
+       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> <br>
     </div>
     <div class="text1">
        <p class="H">ลงทะเบียนเเสร็จสิ้น </p>
