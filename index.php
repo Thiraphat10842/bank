@@ -14,7 +14,9 @@
     }
 </style>
 <body>
-    
+<div class="menu">
+       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> 
+    </div>
     <div class="header">
         <h1 >ลงชื่อเพื่อเข้าใช้งาน</h1>
     </div>
@@ -32,7 +34,7 @@
             <input type="text" name="age"><br>
         </div>
         <div class="input_group">
-            Gender:&nbsp &nbsp<select name="gender">
+            <br>Gender:&nbsp &nbsp<select name="gender"></br>
             <option value="M">Male</option>
             <option value="F">Female</option>
             </select><br> <br>
@@ -41,11 +43,11 @@
             Marry Status: <select name="marry_status">
             <option value="S">Single</option>
             <option value="M">Married</option>
-            </select><br> 
+            </select><br> <br>
         </div>
         <div class="Pum">
-            <input type="submit" value="Submit"> &nbsp &nbsp &nbsp &nbsp
-            <input type="reset" value="Reset"> 
+        <input type="submit" value="Submit">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 
+        <input type="reset" value="Reset">
         </div>
         <div class ="p">
             <br> <p>Already a member <a href= "index.php">Sing in</a> </p>

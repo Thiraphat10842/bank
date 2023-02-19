@@ -9,7 +9,7 @@
 </head>
 <body>
 <div class="menu">
-       <h1> (BGG) &nbsp ธนาคารแบ้วกรุบ </h1> 
+       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> 
     </div>
     <div class="header">
         <h1 >บัญชีเงินฝาก</h1>

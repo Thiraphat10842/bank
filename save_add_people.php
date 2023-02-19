@@ -22,8 +22,11 @@ $conn->query($sql)
      <link rel="stylesheet" href="style.css">
 </head>
 <body>
+     <div class="menu">
+       <h1> (BBK) &nbsp BANK BAEWKRRUB  </h1> 
+    </div>
      <div class="text">
-       <p> Thank You <a href= "Login.php">Sing in</a></p>  
+       <p> Thank You ชูก้า ชูก้ารูน เงินในบัญชีของเธอ<br>ฉันขอนะ <a href= "Login.php">Sing in</a></p>  
      </div>
 </body>
 </html>

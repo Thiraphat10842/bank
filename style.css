@@ -26,7 +26,7 @@ body{
 form, .content{
     width: 30%;
     margin: 0 auto;
-    font-size: 16px;
+    font-size: 18px;
     padding: 20px;
     border: 1px solid#3f4441;
     background: rgb(255, 251, 243);
@@ -40,7 +40,7 @@ form, .content{
 .input_group label {
     display: block;
     text-align: left;
-    font-size: 16px;
+    font-size: 18px;
     margin: 3px;
 }
 .input_group input{
@@ -52,7 +52,7 @@ form, .content{
 }
 .btn{
     padding: 5px 20px;
-    font-size: 15px ;
+    font-size: 18px ;
     color:1px solid rgb(35, 175, 105);
     border: 1px solid #000000;
     background: #41ad89;
@@ -84,9 +84,14 @@ form, .content{
     color: #000000;
     text-align: center;
 }
-.pum {
-    padding: 5px 20px;
-    font-size: 15px ;
-    background-color:hsl(9, 100%, 64%);
+input[type=submit], input[type=reset] {
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px 10px 10px 10px;
     
 }
