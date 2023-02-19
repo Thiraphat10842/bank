@@ -19,7 +19,7 @@ body{
     color: rgba(255, 255, 255, 0.829);
     background: #021b07e8;
     text-align: center;
-    border: 1px solid #0ea068;
+    border: 1px solid #021b07e8;
     border-bottom: none;
     border-radius:  10px 10px 0px 0px;
     padding: 20px;
@@ -58,8 +58,9 @@ form, .content{
     font-size: 18px ;
     color:1px solid rgb(35, 175, 105);
     border: 1px solid #e7e5e5;
-    background: #009966;
+    background: #021b07e8;
     border-radius:  5px;
+    color: #e7e5e5;
     
 }
 .error{
@@ -100,7 +101,7 @@ input[type=submit], input[type=reset] {
         cursor: pointer;
 }
 .text1{
-    font-size: 50px;
+    font-size: 30px;
     color: #000000;
     text-align: center;
 }
