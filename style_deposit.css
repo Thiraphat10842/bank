@@ -4,7 +4,7 @@
 }
 body{
      font-size: 12px;
-    background-image: url(https://adaymagazine.com/wp-content/uploads/2018/11/unicorn2-1.jpg);
+    background-image: url(https://cdn.wallpapersafari.com/19/42/8MEClY.jpg);
         
 }
 .BGG{
@@ -16,24 +16,24 @@ body{
     width:50%;
     margin: 50px auto 0px;
     color: rgb(255, 255, 255);
-    background: #c054a0e0;
+    background: #790e49c4;
     text-align: center;
-    border: 1px solid #610d3b;
+    border: 1px solid #dd4398;
     border-bottom: none;
     border-radius:  10px 10px 0px 0px;
     padding: 20px;
 }
 form,.menu{ 
-    width: 100%;
-    background: #b345a1cc;
-    border: 1px solid #ebebeb;
+    width:100%;
+    margin: 0px auto 0px;
+    background: #5b0970;
+    border: 1px solid #c824af;
     display: block;
     color: rgb(255, 255, 255);
     padding: 12px;
     font-family: Arial, Helvetica, sans-serif;
     border-radius:  0px 0px 0px 0px;
-}
-form, .content{
+}form, .content{
     width: 50%;
     margin: 0 auto;
     font-size: 12px;
@@ -69,7 +69,19 @@ form, .content{
     border: 1px solid #1c0b24f8;
     border-radius:  10px 10px 10px 10px;
     color: #0b140fcc;
-    font-size: 20px;
+}
+.con2{
+    width:10%;
+    height: 25px;
+    margin: 50px auto 0px;
+    color: white;
+    background: #fff1fbb4;
+    text-align: center;
+    border: 1px solid #1c0b24f8;
+    border-radius:  10px 10px 10px 10px;
+    color: #0b140fcc;
+    font-size: 25px;
+    float: right ;
 }
 .Log{
     text-align: right;
@@ -96,17 +108,46 @@ div.menu1 {
     color: rgb(43, 3, 53);
     text-align: center;
     font-size: 16px;
-    border: 2px solid#d69fc8;
+    border: 2px solid#4eb4d3;
     background-color: #961580;
-    border-radius: 10px 10px 10px 10px;
   }
 .button2{
     padding: 5px 20px;
     font-size: 25px ;
     color:1px solid rgb(35, 175, 105);
     border: 1px solid #e7e5e5;
-    background: #b695b9d2;
+    background: #a43dadd2;
     border-radius:  5px;
     color: #e7e5e5;
 }
 
+.input_group{
+    margin:  10px 0px 10px 0px;
+
+}
+.input_group input{
+    height: 30%;
+    width: 80%;
+    padding: 10px 15px;
+    border-radius: 4px;
+    border: 1px solid #3f4441;
+}
+.btn{
+    padding: 5px 20px;
+    font-size: 18px ;
+    color:1px solid rgb(35, 175, 105);
+    border: 1px solid #e7e5e5;
+    background: #021b07e8;
+    border-radius:  5px;
+    color: #e7e5e5; 
+}
+input[type=submit], input[type=reset] {
+    width: 30%;
+    background-color: rgb(43, 3, 53);
+    color: white;
+    padding: 14px 20px;
+    margin: 3px 2;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

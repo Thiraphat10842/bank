@@ -35,7 +35,7 @@
         <div class="input_group">
             <button type="submit" name="login_user" class ="btn">Login</button>
         </div>
-        <p>Not yet member? <a href= "index.php">Sing in</a></p>
+        <p>Not yet member? <a href= "index.php">Sign in</a></p>
     </form>
     
 </body>

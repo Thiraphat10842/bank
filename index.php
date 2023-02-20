@@ -59,7 +59,7 @@
         <input type="reset" value="Reset">
         </div>
         <div class ="p">
-            <br> <p>Already a member <a href= "index.php">Sing in</a> </p>
+            <br> <p>Already a member <a href= "index.php">Sign in</a> </p>
         </div>
     
     </form>
