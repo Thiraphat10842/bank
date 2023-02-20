@@ -24,7 +24,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
   // output data of each row
   while($row = $result->fetch_assoc()) {
-    echo "id: " . $row["id"]. " - Name: " . $row["user_name"]. " age:" . $row["age"];
+    echo "id: " . $row["id"]. "  Name: " . $row["user_name"]. " age:" . $row["age"];
     ?>
     <a href="save_edit.php?id=<?php print($row["id"]);?>"> &nbsp Edit</a>&nbsp &nbsp
     <a href="delete.php?id=<?php print($row["id"]);?>" 

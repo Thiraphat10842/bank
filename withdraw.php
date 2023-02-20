@@ -33,7 +33,10 @@ a:link, a:visited {
     <form action="slip.php" class="con" method="post"><br>
     <h2>ใส่จำนวนเงินที่ต้องการถอน</h2> <br> <br>
     <div class="input_group">
-            <input type="text" name="money"><br>
+        <label>	จำนวนเงิน:</label>
+            <input type="text" name="money"><br><br>
+        <label>	password:</label>
+            <input type="password" name="password"><br>
         </div><br><br>
     <div class="pum">
         <input type="submit" value="Submit">&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp 

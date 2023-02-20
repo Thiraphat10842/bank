@@ -131,6 +131,7 @@ div.menu1 {
     padding: 10px 15px;
     border-radius: 4px;
     border: 1px solid #3f4441;
+    font-size: 20px;
 }
 .btn{
     padding: 5px 20px;
@@ -150,4 +151,5 @@ input[type=submit], input[type=reset] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-size: 20px;
 }
